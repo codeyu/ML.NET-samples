@@ -71,10 +71,10 @@ namespace _1._0IrisDataSet
             // You can change these numbers to test different predictions
             var prediction = model.Predict(new IrisData()
             {
-                SepalLength = 3.3f,
-                SepalWidth = 1.6f,
-                PetalLength = 0.2f,
-                PetalWidth = 5.1f,
+                SepalLength = 5.5f,
+                SepalWidth = 3.5f,
+                PetalLength = 1.3f,
+                PetalWidth = 0.2f,
             });
 
             Console.WriteLine($"Predicted flower type is: {prediction.PredictedLabels}");
